@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background: #ffffff;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 6.6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.4rem;
+}
+
+header nav .logo .logo-img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+header nav .logo .logo-h1 {
+  font-size: 1.6rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header nav .head-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+header .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 5rem;
+}
+
+header .main .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.1rem;
+}
+
+header .main .main-content .main-h2 {
+  margin-left: 3rem;
+  color: #ff9401;
+  position: relative;
+}
+
+header .main .main-content .main-h2:before {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  bottom: 0.3rem;
+  left: -2rem;
+  height: 0.01rem;
+  background: #ff9401;
+}
+
+header .main .main-content .main-h1 {
+  font-size: 5.6rem;
+}
+
+header .main .main-content .main-h1 .h1-span .span-img {
+  margin-bottom: -0.5rem;
+  width: 3.8rem;
+}
+
+header .main .main-content .main-h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+header .main .main-content .main-btn {
+  margin-top: 2.4rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.1rem;
+  width: 15rem;
+  border-radius: 3rem;
+  background: #ff9401;
+  color: white;
+  border: 2px solid #ff9401;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+header .main .main-content .main-btn:hover {
+  background: transparent;
+  border: 2px solid #ff9401;
+  color: #ff9401;
+}
+
+header .main .main-content .main-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+header .main .main-content .main-ul li {
+  list-style: none;
+}
+
+header .main .main-content-2 {
+  width: 60%;
+}
+
+section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 148, 1, 0.05)), to(rgba(255, 237, 211, 0)));
+  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+
+section .main-container .main-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .main-container .main-head .head-1 .head-img {
+  width: 100%;
+  height: 40rem;
+}
+
+section .main-container .main-head .head-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+}
+
+section .main-container .main-head .head-2 .head-h3 {
+  color: #ff9401;
+  font-weight: 600;
+}
+
+section .main-container .main-head .head-2 .head-h1 {
+  font-size: 2.7rem;
+}
+
+section .main-container .main-head .head-2 .head-h2 {
+  color: #3f3232;
+  line-height: 1.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+section .main-container .main-head .head-2 .head-btn {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 12.3rem;
+  height: 3.4rem;
+  background: #ff9401;
+  border: 2px solid #ff9401;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  border-radius: 2.5rem;
+  margin-top: 1rem;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  -webkit-box-shadow: 0px 20px 40px rgba(255, 148, 1, 0.15);
+          box-shadow: 0px 20px 40px rgba(255, 148, 1, 0.15);
+}
+
+section .main-container .main-head .head-2 .head-btn:hover {
+  background: transparent;
+  border: 2px solid #ff9401;
+  color: #ff9401;
+}
+
+.section-2 .card-container {
+  padding: 5rem 2rem;
+  position: relative;
+}
+
+.section-2 .card-container .side-decoration {
+  position: absolute;
+  left: -2rem;
+  top: -3rem;
+}
+
+.section-2 .card-container .side-decoration-1 {
+  width: 12rem;
+  position: absolute;
+  right: 0rem;
+  top: 0;
+}
+
+.section-2 .card-container .card-h4 {
+  color: #FF9401;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.section-2 .card-container .card-h1 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.section-2 .card-container .card-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3rem;
+}
+
+.section-2 .card-container .card-main .card-content {
+  width: 18rem;
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.section-2 .card-container .card-main .card-content .card-img {
+  width: 4rem;
+}
+
+.section-2 .card-container .card-main .card-content .card-h2 {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+.section-2 .card-container .card-main .card-content .card-h5 {
+  font-size: 0.9rem;
+  letter-spacing: 0.01rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #3F3232;
+}
+
+.section-3 {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 148, 1, 0.05)), to(rgba(255, 237, 211, 0)));
+  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+/*# sourceMappingURL=style.css.map */
