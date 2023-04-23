@@ -303,8 +303,321 @@ section .main-container .main-head .head-2 .head-btn:hover {
 }
 
 .section-3 {
-  height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 148, 1, 0.05)), to(rgba(255, 237, 211, 0)));
-  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+  background: rgba(255, 148, 1, 0.05) rgba(255, 237, 211, 0);
+}
+
+.section-3 .card-head .card-heading {
+  padding-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.5rem;
+}
+
+.section-3 .card-head .card-heading .card-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  padding-left: 10rem;
+}
+
+.section-3 .card-head .card-heading .card-center .card-heading-h4 {
+  font-size: 1.5rem;
+  color: #FF9401;
+}
+
+.section-3 .card-head .card-heading .card-center .card-heading-h1 {
+  font-size: 2.5rem;
+}
+
+.section-3 .card-head .food-card .food-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5rem 0 5rem;
+  gap: 2rem;
+}
+
+.section-3 .card-head .food-card .food-container .food-card-main {
+  width: 22em;
+  height: 23rem;
+  background: white;
+  border-radius: 0.7rem;
+}
+
+.section-3 .card-head .food-card .food-container .food-card-main .food-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0.3rem;
+}
+
+.section-3 .card-head .food-card .food-container .food-card-main .food-card-text .food-card-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 1rem 0.8rem;
+}
+
+.section-3 .card-head .food-card .food-container .food-card-main .food-card-text .food-card-head .food-title {
+  font-size: 1.2rem;
+}
+
+.section-3 .card-head .food-card .food-container .food-card-main .food-card-text .food-card-head .food-title-1 {
+  color: #818181;
+  font-weight: 600;
+}
+
+.section-3 .card-head .food-card .food-container .food-card-main .food-card-text .card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.section-3 .card-head .food-card .food-container .food-card-main .food-card-text .card-footer .btn {
+  font-size: 0.6rem;
+  width: 6.7rem;
+  height: 1.3rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  background: #C4C4C442;
+  font-weight: 500;
+}
+
+.section-3 .card-head .food-card .food-container .food-card-main .food-card-text .card-footer .card-h5 {
+  color: #FF9401;
+  font-size: 1.1rem;
+}
+
+.section-3 .card-head .btn-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-3 .card-head .btn-2 .see-more-btn {
+  padding: 1.1rem 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  border-radius: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #FF9401;
+  border: 2px solid #ff9401;
+  color: white;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  outline: none;
+}
+
+.section-3 .card-head .btn-2 .see-more-btn:hover {
+  background: transparent;
+  border: 2px solid #ff9401;
+  color: #ff9401;
+}
+
+.section-4 {
+  background: white;
+}
+
+.section-4 .ads-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  gap: 5rem;
+  padding: 3rem 5rem;
+}
+
+.section-4 .ads-container .ads-side-decoration {
+  position: absolute;
+  left: 0;
+  top: -5rem;
+}
+
+.section-4 .ads-container .ads-side-decoration-2 {
+  position: absolute;
+  right: 0;
+  top: -2rem;
+}
+
+.section-4 .ads-container .ads-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-4 .ads-container .ads-text .ads-h4 {
+  font-size: 1.3rem;
+  color: #FF9401;
+}
+
+.section-4 .ads-container .ads-text .ads-h1 {
+  font-size: 3rem;
+}
+
+.section-4 .ads-container .ads-text .ads-h5 {
+  max-width: 80%;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.section-4 .ads-container .ads-text .ads-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-1 {
+  width: 10rem;
+  height: 3rem;
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0.4rem;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-1:hover {
+  background: white;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-1:hover .apple {
+  color: black;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-1:hover .apple-content {
+  color: black;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-1 .apple {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-1 .apple-content {
+  color: white;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-1 .apple-content .apple-content-h6 {
+  font-size: 0.4rem;
+  font-weight: 500;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-1 .apple-content .apple-content-h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-2 {
+  width: 11rem;
+  height: 3rem;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0.4rem;
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-2:hover {
+  background: black;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-2:hover .store {
+  color: white;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-2:hover .store-content {
+  color: white;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-2 .store {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-2 .store-content .store-content-h6 {
+  font-size: 0.4rem;
+  font-weight: 500;
+}
+
+.section-4 .ads-container .ads-text .ads-btn .ads-btn-2 .store-content .store-content-h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
